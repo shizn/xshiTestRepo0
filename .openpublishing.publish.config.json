@@ -19,7 +19,7 @@
     {
       "docset_name": "name1",
       "build_source_folder": null,
-      "build_output_subfolder": "basePath1",
+      "build_output_subfolder": "basePath3",
       "build_entry_point": "op.ps1",
       "locale": "zh-cn",
       "version": 1,
