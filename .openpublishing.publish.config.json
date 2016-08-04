@@ -15,19 +15,6 @@
         "RestApi": "Content"
       },
       "build_entry_point": "op.ps1"
-    },
-    {
-      "docset_name": "name2",
-      "build_output_subfolder": "basePath2",
-      "locale": "zh-hk",
-      "version": 2,
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "op.ps1"
     }
   ],
   "notification_subscribers": [
