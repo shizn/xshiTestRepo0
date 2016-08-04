@@ -1,26 +1,11 @@
 {
   "build_entry_point": "",
   "need_generate_pdf": false,
+  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "name0",
-      "build_source_folder": null,
-      "build_output_subfolder": "basePath0",
-      "build_entry_point": "docs.ps1",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      }
-    },
-    {
       "docset_name": "name1",
-      "build_source_folder": null,
       "build_output_subfolder": "basePath3",
-      "build_entry_point": "op.ps1",
       "locale": "zh-cn",
       "version": 1,
       "open_to_public_contributors": true,
@@ -28,13 +13,12 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "build_entry_point": "op.ps1"
     },
     {
       "docset_name": "name2",
-      "build_source_folder": null,
       "build_output_subfolder": "basePath2",
-      "build_entry_point": "op.ps1",
       "locale": "zh-hk",
       "version": 2,
       "open_to_public_contributors": false,
@@ -42,10 +26,12 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "build_entry_point": "op.ps1"
     }
   ],
   "notification_subscribers": [
     "xshi@microsoft.com"
-  ]
+  ],
+  "skip_source_output_uploading": false
 }
